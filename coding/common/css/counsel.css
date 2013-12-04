@@ -1,0 +1,17 @@
+/* 진료상담 */
+.counsel_area {width:764px; height:520px; overflow:hidden; background:url(../images/counsel/bg_counsel.jpg) no-repeat 0 0}
+.counsel_area:after {display:block; clear:both; content:'';}
+.counsel_area .lt {float:left; padding:161px 0 0 0; width:367px; height:359px;}
+.ntlist {padding:0 0 0 20px; margin-top:9px; width:346px; background:url(../images/board/bg_ntlist.gif) repeat-x 0 0}
+.ntlist table thead th {padding:5px 0; border:0; background:none;}
+.ntlist table td {padding:9px 0 2px; border:0; color:#c3dfee}
+.ntlist table td.store a {font-weight:bold; color:#fff;}
+.counsel_area .rt {float:left; padding:33px 0 0 0; width:397px;}
+.counsel_area .rt p.map {margin-top:41px;}
+
+/* 온라인예약 */
+.reservation {position:relative; width:764px; height:508px; background:url(../images/counsel/bg_reservation.jpg) no-repeat 0 0;}
+.reservation .list {position:absolute; width:223px; top:339px; left:36px;}
+.reservation .list td {padding:9px 0 2px; border:0;}
+.reservation .list td.store a {color:#3e8ab3; font-weight:bold;}
+.reservation .map {position:absolute; width:262px; height:367px; top:100px; left:398px; }

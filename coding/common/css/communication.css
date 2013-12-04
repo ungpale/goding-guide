@@ -1,0 +1,16 @@
+ul.faqList {border-top:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6;}
+ul.faqList li {padding:16px 0 14px; border-bottom:1px solid #d6d6d7;}
+ul.faqList li:last-child {border:0;}
+ul.faqList li.on {padding:16px 0 0 0;}
+ul.faqList li h4 {padding:0 0 0 10px; font-weight:normal; background:url(../images/communication/arr_faq_off.png) no-repeat 735px center}
+ul.faqList li.on h4 {font-weight:bold; background:url(../images/communication/arr_faq_on.png) no-repeat 735px center}
+ul.faqList li h4 a {padding:3px 0 3px 25px; font-size:14px; color:#343434; background:url(../images/ico/ico_q.png) no-repeat left top;}
+ul.faqList li p.a {padding:20px 20px 21px 62px; margin-top:14px; border-top:1px solid #dfdfdf; background:#f4f4f4 url(../images/communication/faq_a.png) no-repeat 35px 16px; line-height:20px;}
+ul.faqList li span.category {color:#64aecd}
+
+.privacy_area {position:relative; padding:26px 0 0 0; height:199px; background:#f6fcfd; border-top:1px solid #dfe5e6;}
+.privacy_area .tit {margin:0 0 0 24px;}
+.privacy_area .info1 {position:absolute; top:28px; right:21px; font-size:11px; color:#a5afb1;}
+.privacy_area .txt {position:relative; padding:16px 14px 0 14px; margin:9px auto 0 auto; width:693px; height:112px; border:1px solid #d7e1e3; background:#FFF; overflow-x:none; overflow-y:scroll;}
+.privacy_area .txt p {line-height:18px;}
+.privacy_area .chk {text-align:right; margin:16px 23px 0 0; font-size:11px; color:#858585}

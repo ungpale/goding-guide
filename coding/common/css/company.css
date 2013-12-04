@@ -1,0 +1,50 @@
+.select_area {margin-bottom:8px; height:25px; overflow:hidden; text-align:right;}
+.cntNet {margin:0;}
+.cntNet:after {display:block; clear:both; content:'';}
+.cntNet .networkmap {float:left; padding:34px 0 0 0; width:407px; height:494px; overflow:hidden; background:url(../images/company/bg_networkmap.jpg) no-repeat 0 0;}
+.cntNet .networkmap .maparea {margin:25px 0 0 77px;}
+.cntNet .agentlist {float:left; width:357px; height:303px; overflow:hidden; background:url(../images/company/bg_agentlist.jpg) no-repeat 0 0; text-align:center;}
+.cntNet .agentlist .carousel {padding:15px 0 0 0;}
+.cntNet .agentlist .carousel .jCarouselLite {margin:4px 0 16px 0; height:230px !important; overflow:hidden;}
+.cntNet .agentlist .carousel ul li {height:61px; padding:16px 0 0 23px; overflow:hidden; text-align:left;}
+.cntNet .agentlist .carousel ul li.busan {background:url(../images/company/bg_busan.png) no-repeat 0 0;}
+.cntNet .news {float:left; position:relative; padding:23px 27px 0 23px; width:307px; height:202px; overflow:hidden; background:url(../images/company/bg_networknews.jpg) no-repeat 0 0;}
+.cntNet .news a.more {right:27px;}
+
+.thum01.agent .thum {width:169px;}
+.thum01.agent .cont {padding-top:6px; width:555px;}
+.thum01.agent .cont p {line-height:18px;}
+.thum01.agent .cont p.name {margin-bottom:10px; color:#3e8ab2; font-weight:bold; font-size:14px;}
+.thum01.agent .cont p span.info1 {color:#3e8ab3}
+
+.tab_network {margin:15px 0 0 0;}
+.tab_network .nav-tabs {height:28px; background:url(../images/company/bg_tab_network.gif) no-repeat 0 0; border:1px solid #d9d9d9;}
+.tab_network .nav-tabs > li {background:url(../images/company/tab_network_vline.gif) no-repeat right top}
+.tab_network .nav-tabs > li > a {display:block; height:28px;}
+.tab_network .nav-tabs > li > a:hover,
+.tab_network .nav-tabs > li.active > a {margin:-1px 0 0 -1px; height:35px;}
+.tab_network .nav-tabs > li.tab1 > a {width:137px; background:url(../images/company/tab_network01_off.png) no-repeat 32px 8px;}
+.tab_network .nav-tabs > li.tab1.active > a,
+.tab_network .nav-tabs > li.tab1 > a:hover {width:138px;background:url(../images/company/tab_network01_on.png) no-repeat left top;}
+.tab_network .nav-tabs > li.tab2 > a {width:156px; background:url(../images/company/tab_network02_off.png) no-repeat 23px 8px;}
+.tab_network .nav-tabs > li.tab2.active > a,
+.tab_network .nav-tabs > li.tab2 > a:hover {width:157px; background:url(../images/company/tab_network02_on.png) no-repeat left top;}
+.tab_network .nav-tabs > li.tab3 > a {width:130px; background:url(../images/company/tab_network03_off.png) no-repeat 25px 8px;}
+.tab_network .nav-tabs > li.tab3.active > a,
+.tab_network .nav-tabs > li.tab3 > a:hover {width:131px; background:url(../images/company/tab_network03_on.png) no-repeat left top;}
+.tab_network .nav-tabs > li.tab4 > a {width:91px; background:url(../images/company/tab_network04_off.png) no-repeat 21px 8px;}
+.tab_network .nav-tabs > li.tab4.active > a,
+.tab_network .nav-tabs > li.tab4 > a:hover {width:92px; background:url(../images/company/tab_network04_on.png) no-repeat left top;}
+.tab_network .nav-tabs > li.tab5 > a {width:109px; background:url(../images/company/tab_network05_off.png) no-repeat 26px 8px;}
+.tab_network .nav-tabs > li.tab5.active > a,
+.tab_network .nav-tabs > li.tab5 > a:hover {width:110px; background:url(../images/company/tab_network06_on.png) no-repeat left top;}
+.tab_network .nav-tabs > li.tab6 > a {width:108px; background:url(../images/company/tab_network06_off.png) no-repeat 25px 8px;}
+.tab_network .nav-tabs > li.tab6.active > a,
+.tab_network .nav-tabs > li.tab6 > a:hover {width:109px; background:url(../images/company/tab_network06_on.png) no-repeat left top;}
+.tab_network .tab-content p {line-height:18px;}
+.tab_network .tab-content.tab03 {padding-top:58px;}
+.tab_network .tab-content.tab04 {padding-top:53px;}
+.tab_network .tab-content.tab05 {padding-top:52px;}
+.location_info ul {display:inline-block; *display:inline; *zoom:1; margin-top:20px; width:100%; border:1px solid #cbd6da; background:#f1f8fa;}
+.location_info ul li {float:left; padding:20px 0 10px 25px; width:355px; border-right:1px solid #cbd6da;}
+.location_info ul li p.sbj {font-size:16px; font-weight:bold;}

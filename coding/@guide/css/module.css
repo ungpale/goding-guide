@@ -1,0 +1,20 @@
+@charset "utf-8";
+/********************************************
+*********************************************  
+   Project ---  
+   FileName -	module.css
+   Author ---	vricks
+   Date -----	2013-07-08
+   Last -----	2013-07-08
+*********************************************
+********************************************/
+
+.sbox {-webkit-box-shadow: #666 0px 0px 8px; -moz-box-shadow: #666 0px 0px 8px; box-shadow: #666 0px 0px 8px; }
+.sbox h3.a1 {padding:10px 12px; margin-top:10px; font-size:14px; color:#fff; background:#232323}
+.sbox .wbox_a1 {background:#fff; padding:20px 12px; border:1px solid #345465; border-top:0; border-bottom:0;}
+.sbox .codebox {padding:12px 0; border:1px solid #345465; border-top:1px dashed #345465; background:#FFF}
+
+.codebox .syntaxhighlighter {padding:12px 0 !important; margin:0 !important;}
+.syntaxhighlighter .line.alt2 {background-color: #232323 !important;}
+
+h1.a1 {font-size:14px;}

@@ -1,0 +1,10 @@
+/* 치료후기 */
+ul.review {border-top:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6}
+ul.review li:after {display:block; clear:both; content:'';}
+ul.review li {padding:15px 0 15px 2px; border-bottom:1px solid #e1e1e1}
+ul.review li:last-child {border:none;}
+ul.review .thum {float:left; margin-right:24px; width:150px; height:100px; overflow:hidden;}
+ul.review .cont {float:left; padding-top:5px; width:588px;}
+ul.review .cont .sbj a {font-size:16px; font-weight:bold; color:#353434}
+ul.review .cont .txt a {color:#666161; line-height:18px;}
+ul.review .cont .date {margin-top:3px; font-size:11px; color:#a2a2a2;}

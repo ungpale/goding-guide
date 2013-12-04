@@ -1,0 +1,52 @@
+@import "common.css";
+@import "module.css";
+@import "shCore.css";
+@import "styles/shThemeDefault.css";
+/* @import "bootstrap.css"; */
+
+/* 폰트 설정 */
+@font-face{
+font-family:"ng";
+src:url(font/NanumGothic.eot);
+src:local(※), url(font/NanumGothic.woff) format(‘woff’)
+}
+@font-face{
+font-family:ngbold;
+src:url(font/NanumGothicBold.eot);
+src:local(※), url(font/NanumGothicBold.woff) format(‘woff’)
+}
+
+html{width:100%; overflow-y:scroll;}
+* {margin:0; padding:0;}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select{font-size:12px; font-family:"돋움",Dotum, "굴림",Gulim,Helvetica,AppleGothic,sans-serif; color:#474747;}
+img, fieldset {border:0; vertical-align:top;}
+ul, ol {list-style:none;}
+em,address {font-style:normal;}
+a {text-decoration:none; color:#b7b7b7;}
+a:hover,a:active,a:focus {text-decoration:none; color:#21b9f3} 
+
+table {width:100%; table-layout:fixed;}
+table, tbody, tfoot, thead, tr, th, td {border-collapse:separate;border-spacing:0;table-layout:fixed;} /*border:none; separate*/
+* html table, tbody, tfoot, thead, tr, th, td {border-collapse:collapse;} /* ie6 */
+* + html table, tbody, tfoot, thead, tr, th, td {border-collapse:collapse;} /* ie7 */
+
+caption, legend {display:none;}
+fieldset {border:none;}
+
+input {font-family:"돋움",Dotum, "굴림",Gulim,Helvetica,AppleGothic,sans-serif; color:#5e6170;}
+textarea{overflow:auto;font:12px/1.3em "돋움",Dotum, "굴림",Gulim,Helvetica,AppleGothic,sans-serif;} 
+textarea {resize:none;}
+button{cursor:pointer;}
+input, button, select, textarea {color:#919191; vertical-align:middle;}
+
+html, div, textarea, select {scrollbar-3dlight-color:#b4b4b4; scrollbar-arrow-color:#333333; scrollbar-base-color:#eeeeee; scrollbar-darkshadow-color:#ffffff; scrollbar-face-color:#eeeeee; scrollbar-highlight-color:#ffffff; scrollbar-shadow-color:#b4b4b4; }
+
+/* 공통 */
+.fl {float:left !important;}
+.fr {float:right !important;}
+.inblock {display:inline-block; *display:inline; *zoom:1}
+
+.hide {display:none;}
+.show {display: block;}
+.invisible {visibility: hidden;}
+.affix {position: fixed;}

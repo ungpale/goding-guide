@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="kimsQStart" lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>선명안 한의안과학회</title>
+<link rel="stylesheet" href="common/css/base.css">
+<script type="text/javascript" src="common/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<link rel="stylesheet" href="common/css/main.css">
+<script type="text/javascript" src="common/js/fakeselect.js"></script>
+<script type="text/javascript" src="common/js/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="common/js/jquery.sliderkit.1.9.2.pack.js"></script>
+<script type="text/javascript">
+	$(window).load(function(){
+		$(".visual_area").sliderkit({
+			auto:true,
+			tabs:1,
+			circular:1,
+			panelfx:"sliding",
+			panelfxfirst:"fading",
+			panelfxeasing:"easeInOutExpo",
+			fastchange:false,
+			keyboard:1
+		});
+		
+		$(".network").sliderkit({
+			shownavitems:7,
+			scroll:1,
+			mousewheel:false,
+			circular:true,
+			start:4,
+			verticalnav:true
+		});
+
+		$(".mw02").sliderkit({
+			auto:true,
+			tabs:1,
+			circular:true,
+			panelfx:"sliding",
+			panelfxfirst:"fading",
+			panelfxeasing:"easeInOutExpo"
+		});
+
+		$(".partner").sliderkit({
+			shownavitems:7,
+			scroll:1,
+			mousewheel:true,
+			circular:true,
+			start:1
+		});
+	});
+	//팝업
+	function popup(x){
+	document.getElementById(x).style.display = "block";
+	}
+	function pop_close(x){
+	 document.getElementById(x).style.display = "none";
+	}
+</script>
+<script type="text/javascript" src="common/js/jquery.scroll.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.cnt_area').scrollbar();
+});
+</script>
+</head>
+<body>
+<div id="header">
+	<div class="wrap">
+		<div class="logo">
+			<h1><a href="#"><img src="common/images/comm/logo.png" alt="선명안 한의안과학회 로고"></a></h1>
+		</div>
+		<div class="topmenu">
+			<ul>
+				<li class="first"><a href="#"><img src="common/images/comm/topmenu01.png" alt="처음으로" /></a></li>
+				<li><a href="#"><img src="common/images/comm/topmenu02.png" alt="로그인" /></a></li>
+				<li><a href="#"><img src="common/images/comm/topmenu03.png" alt="회원가입" /></a></li>
+				<li><a href="#"><img src="common/images/comm/topmenu04.png" alt="마이페이지" /></a></li>
+				<li><a href="#"><img src="common/images/comm/topmenu05.png" alt="사이트맵" /></a></li>
+				<li><a href="#"><img src="common/images/comm/topmenu06.png" alt="인트라넷" /></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#"><img src="common/images/comm/menu01.png" alt="학회소개" /></a></li>
+				<li><a href="#"><img src="common/images/comm/menu02.png" alt="전문진료" /></a></li>
+				<li><a href="#"><img src="common/images/comm/menu03.png" alt="치료방법" /></a></li>
+				<li><a href="#"><img src="common/images/comm/menu04.png" alt="치료성공사례" /></a></li>
+				<li><a href="#"><img src="common/images/comm/menu05.png" alt="상담/예약" /></a></li>
+				<li><a href="#"><img src="common/images/comm/menu06.png" alt="소통/공유" /></a></li>
+				<li id="viewtotal"><a href="#"><span>전체보기+</span></a></li>
+			</ul>
+		</div>
+		<div class="social">
+			<ul>
+				<li><a href="#"><img src="common/images/comm/ico_twitter.png" alt="트위터 바로가기" /></a></li>
+				<li><a href="#"><img src="common/images/comm/ico_facebook.png" alt="페이스북 바로가기" /></a></li>
+				<li><a href="#"><img src="common/images/comm/ico_blog.png" alt="블로그 바로가기" /></a></li>
+				<li><a href="#"><img src="common/images/comm/ico_youtube.png" alt="유투브 바로가기" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="total">
+		<div class="wrap">
+			<ul>
+				<li class="submenu1"><span class="hide">학회소개</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb01_1.gif" alt="인사말" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb01_2.gif" alt="학회소개" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb01_3.gif" alt="학회 네트워크" /></a></li>
+					</ul>
+				</li>
+				<li class="submenu2"><span class="hide">전문진료</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb02_1.gif" alt="노안" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb02_2.gif" alt="시력저하증" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb02_3.gif" alt="시력강화" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb02_4.gif" alt="백내장" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb02_5.gif" alt="녹내장" /></a></li>
+					</ul>
+				</li>
+				<li class="submenu3"><span class="hide">치료방법</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb03_1.gif" alt="한약치료" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb03_2.gif" alt="약침요법" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb03_3.gif" alt="침,뜸,부항" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb03_4.gif" alt="보사요법" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb03_5.gif" alt="자석요법" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb03_6.gif" alt="테이핑요법" /></a></li>
+					</ul>
+				</li>
+				<li class="submenu4"><span class="hide">치료성공사례</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb04_1.gif" alt="논문,저서" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb04_2.gif" alt="치료후기" /></a></li>
+					</ul>
+				</li>
+				<li class="submenu5"><span class="hide">상담/예약</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb05_1.gif" alt="진료상담" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb05_2.gif" alt="온라인예약" /></a></li>
+					</ul>
+				</li>
+				<li class="submenu6"><span class="hide">소통/공유</span>
+					<ul>
+						<li><a href="#"><img src="common/images/comm/gnb06_1.gif" alt="공지사항" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb06_2.gif" alt="FAQ" /></a></li>
+						<li><a href="#"><img src="common/images/comm/gnb06_3.gif" alt="상담 및 문의" /></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="container_main">
+	<div class="wrap">
+		<!-- Visual Slider -->
+		<div id="sliderkit" class="visual_area">
+			<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Previous"><span>Previous</span></a></div>
+			<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Next"><span>Next</span></a></div>
+			<div class="sliderkit-panels">
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/visual01.png" alt="비쥬얼이미지1" />
+				</div>
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/visual01.png" alt="비쥬얼이미지2" />
+				</div>
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/visual01.png" alt="비쥬얼이미지3" />
+				</div>
+			</div>
+			<div class="sliderkit-nav">
+				<div class="sliderkit-nav-clip">
+					<ul>
+						<li><a href="#" title="첫번째 링크 바로가기">눈과 마음을 치유하는 안과질환 전문 한의원 학회</a></li>
+						<li><a href="#" title="두번째 링크 바로가기">눈과 마음을 치유하는 안과질환 전문 한의원 학회</a></li>
+						<li><a href="#" title="세번재 링크 바로가기">눈과 마음을 치유하는 안과질환 전문 한의원 학회</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //Visual Slider -->
+
+		<!-- vertical slider -->
+		<div class="networkarea">
+			<h2><img src="common/images/comm/img_main_network.gif" alt="선명안 네트워크" /></h2>
+			<div class="network">
+				<div class="sliderkit-nav">
+					<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left"><span>Previous</span></a></div>
+					<div class="sliderkit-nav-clip">
+						<ul>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+							<li><a href="#"><img src="common/images/comm/network_list01.png" alt="경남 창원점" /></a></li>
+						</ul>
+					</div>
+					<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right"><span>Next</span></a></div>
+				</div>
+			</div>
+		</div>
+		<!-- //vertical slider -->
+	</div>
+	<div class="wrap">
+		<div class="mw01">
+			<h2><img src="common/images/comm/mtit_online_reserve.gif" alt="Reservation 온라인 예약" /></h2>
+			<p><img src="common/images/comm/mtxt_online_reserve.png" alt="온라인으로 간편하고 빠르게 예약을 도와드리겠습니다." /></p>
+			<a href="#"><img src="common/images/comm/btn_go_reserve.png" alt="GO" /></a>
+		</div>
+		<div class="mw02">
+			<div class="sliderkit-panels">
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/mw02_visual01.png" alt="비쥬얼이미지1" />
+				</div>
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/mw02_visual02.png" alt="비쥬얼이미지1" />
+				</div>
+				<div class="sliderkit-panel">
+					<img src="common/images/comm/mw02_visual03.png" alt="비쥬얼이미지1" />
+				</div>
+			</div>
+			<div class="sliderkit-nav">
+				<div class="sliderkit-nav-clip">
+					<ul>
+						<li><a href="#"><span>1</span></a></li>
+						<li><a href="#"><span>2</span></a></li>
+						<li><a href="#"><span>3</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="mw03">
+			<div class="news">
+				<h2><img src="common/images/comm/mtit_news.gif" alt="학회소식" /></h2>
+				<ul class="board1">
+					<li><a href="#">선명안 한의안과학회 홈페이지가 오픈...</a><span>2013.3.20</span></li>
+					<li><a href="#">선명안 한의안과학회 홈페이지가 오픈...</a><span>2013.3.20</span></li>
+					<li><a href="#">선명안 한의안과학회 홈페이지가 오픈...</a><span>2013.3.20</span></li>
+					<li><a href="#">선명안 한의안과학회 홈페이지가 오픈...</a><span>2013.3.20</span></li>
+				</ul>
+				<a href="#" class="more"><img src="common/images/comm/more.png" alt="학회소식 더보기" /></a>
+			</div>
+			<p><a href="#"><img src="common/images/comm/mban01.jpg" alt="치료 성공사례 - 선명안 한의안과 학회는 치료사례에 관한 자료공간을 마련해 두었습니다. " /></a></p>
+		</div>
+		<div class="mw04">
+			<h2><img src="common/images/comm/mtit_network.png" alt="선명안 Network" /></h2>
+			<p><img src="common/images/comm/mtxt_network.png" alt="지도상에서 가까운 학회 정회원 한의원을 클릭 하세요." /></p>
+			<!-- 맵 -->
+			<div class="map_area" id="network1" style="display:block;">
+				<img src="common/images/comm/img_networkmap01.png" alt="지도" usemap="#Map" />
+				<map name="Map" id="Map">
+					<area shape="poly" coords="94,39,96,44,102,46,106,43,107,38,102,34,97,36" href="javascript:;" alt="서울" onmouseover="network(2);" />
+					<area shape="poly" coords="92,39,87,38,83,36,84,31,81,28,78,29,73,31,71,36,74,38,77,41,78,46,82,47,86,46,90,48,93,45" href="javascript:;" alt="인천" onmouseover="network(3);" />
+					<area shape="poly" coords="91,50,89,57,92,63,96,67,101,68,104,66,110,68,114,66,124,59,126,54,126,50,127,44,126,39,121,38,118,31,120,27,116,20,110,17,106,12,99,14,94,17,92,24,88,33,95,38,99,33,103,33,108,37,109,41,105,47,98,48,93,47" href="javascript:;" alt="경기" onmouseover="network(4);" />
+					<area shape="poly" coords="89,63,94,68,100,70,104,69,112,70,113,75,113,82,114,89,119,97,122,103,118,106,113,103,109,102,104,104,99,100,96,104,89,105,84,99,84,92,79,89,77,83,75,77,71,78,72,70,82,61,87,61" href="javascript:;" alt="충남" onmouseover="network(5);" />
+					<area shape="poly" coords="113,68,122,62,128,58,136,55,146,57,153,61,151,68,147,73,143,70,137,74,133,81,132,87,131,92,136,96,135,101,130,105,124,103,119,94,116,86,115,76" href="javascript:;" alt="충북" onmouseover="network(6);" />
+					<area shape="poly" coords="176,129,166,138,157,142,152,146,155,149,163,148,178,140,181,133" href="javascript:;" alt="부산" onmouseover="network(7);" />
+					<area shape="poly" coords="83,189,75,194,71,200,76,204,88,204,100,196,96,187" href="javascript:;" alt="제주" onmouseover="network(8);" />
+				</map>
+			</div>
+
+			<!-- 서울 -->
+			<div class="map_area" id="network2" style="display:none;">
+				<img src="common/images/comm/img_networkmap02.png" alt="서울" usemap="#Map" />
+			</div>
+
+			<!-- 인천 -->
+			<div class="map_area" id="network3" style="display:none;">
+				<img src="common/images/comm/img_networkmap03.png" alt="인천" usemap="#Map" />
+			</div>
+
+			<!-- 경기 -->
+			<div class="map_area" id="network4" style="display:none;">
+				<img src="common/images/comm/img_networkmap04.png" alt="경기" usemap="#Map" />
+			</div>
+
+			<!-- 충남 -->
+			<div class="map_area" id="network5" style="display:none;">
+				<img src="common/images/comm/img_networkmap05.png" alt="충남" usemap="#Map" />
+			</div>
+
+			<!-- 충북 -->
+			<div class="map_area" id="network6" style="display:none;">
+				<img src="common/images/comm/img_networkmap06.png" alt="충북" usemap="#Map" />
+			</div>
+
+			<!-- 부산 -->
+			<div class="map_area" id="network7" style="display:none;">
+				<img src="common/images/comm/img_networkmap07.png" alt="부산" usemap="#Map" />
+			</div>
+
+			<!-- 제주 -->
+			<div class="map_area" id="network8" style="display:none;">
+				<img src="common/images/comm/img_networkmap08.png" alt="제주" usemap="#Map" />
+			</div>
+
+		</div>
+		<div class="mw05">
+			<h2><img src="common/images/comm/mtit_sns.gif" alt="선명안 SNS" /></h2>
+			<div class="tab_sns">
+				<ul>
+					<li class="tab1"><a href="javascript:;" onclick="tab_sns(1); return false;" class="on"><span class="hide">트위터</span></a></li>
+					<li class="tab2"><a href="javascript:;" onclick="tab_sns(2); return false;"><span class="hide">페이스북</span></a></li>
+				</ul>
+			</div>
+
+			<div class="cntbox">
+				<div class="cnt_area" id="tab_sns1">
+					111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />111 <br />
+				</div>
+				<div class="cnt_area" id="tab_sns2">
+					222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />
+					222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />222 <br />
+				</div>
+			</div>
+		</div>
+		<div class="mw06">
+			<div class="press">
+				<h2><img src="common/images/comm/mtit_press.gif" alt="언론 보도자료" /></h2>
+				<ul class="board1">
+					<li><a href="#">&lt;머니투데이&gt; 40대 이후 '불청객' 노안...</a><span>2013.3.20</span></li>
+					<li><a href="#">&lt;머니투데이&gt; 40대 이후 '불청객' 노안...</a><span>2013.3.20</span></li>
+					<li><a href="#">&lt;머니투데이&gt; 40대 이후 '불청객' 노안...</a><span>2013.3.20</span></li>
+					<li><a href="#">&lt;머니투데이&gt; 40대 이후 '불청객' 노안...</a><span>2013.3.20</span></li>
+				</ul>
+				<a href="#" class="more"><img src="common/images/comm/more.png" alt="언론 보도자료 더보기" /></a>
+			</div>
+			<div class="quickmenubox">
+				<a href="#" class="quickmenu1"><img src="common/images/comm/quickmenu1.png" alt="상담 및 문의" /></a>
+				<a href="#" class="quickmenu2"><img src="common/images/comm/quickmenu2.png" alt="진료상담" /></a>
+				<a href="#" class="quickmenu3"><img src="common/images/comm/quickmenu3.png" alt="학회소개" /></a>
+			</div>
+			<p class="mt20 tac"><img src="common/images/comm/txt_cnb.gif" alt="고객상담 대표전화 1577-5588" /></p>
+		</div>
+	</div>
+
+	<!-- 파트너 -->
+	<div class="wrap">
+		<div class="partner">
+			<div class="sliderkit-nav">
+				<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left"><span>Previous</span></a></div>
+				<div class="sliderkit-nav-clip">
+					<ul>
+						<li><a href="#"><img src="common/images/comm/partner01.gif" alt="대한한의사협회" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner02.gif" alt="한국한의학연구원" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner03.gif" alt="보건복지부" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner04.gif" alt="하나은행 제휴 Platinum 카드발급" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner05.gif" alt="과학기술학회마을" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner06.gif" alt="과학기술학회마을" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner07.gif" alt="akomnews 세상을 여는 한의신문" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner01.gif" alt="대한한의사협회" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner02.gif" alt="한국한의학연구원" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner03.gif" alt="보건복지부" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner04.gif" alt="하나은행 제휴 Platinum 카드발급" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner05.gif" alt="과학기술학회마을" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner06.gif" alt="과학기술학회마을" /></a></li>
+						<li><a href="#"><img src="common/images/comm/partner07.gif" alt="akomnews 세상을 여는 한의신문" /></a></li>
+					</ul>
+				</div>
+				<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right"><span>Next</span></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- //파트너 -->
+
+</div>
+
+<div id="footer">
+	<div class="wrap">
+		<img src="common/images/comm/footer_logo.gif" alt="선명안 한의안과학회 하단 로고" />
+		<ul class="footermenu">
+			<li><a href="#" class="first"><img src="common/images/comm/footer_menu1.gif" alt="이용약관" /></a></li>
+			<li><a href="#"><img src="common/images/comm/footer_menu2.gif" alt="개인정보보호정책" /></a></li>
+			<li><a href="#"><img src="common/images/comm/footer_menu3.gif" alt="이메일수집거부" /></a></li>
+			<li><a href="#"><img src="common/images/comm/footer_menu4.gif" alt="사이트맵" /></a></li>
+		</ul>
+		<div class="family">
+			<select id="selFamilySite" onchange="fnFamilySiteLink();">
+				<option value="">학회 정회원 한의원</option>
+                <option value="#">한의원2</option>
+                <option value="#">한의원3</option>
+                <option value="#">한의원4</option>
+                <option value="#">한의원5</option>
+			</select>
+		</div>
+		<p class="address"><img src="common/images/comm/address.gif" alt="주소:서울시 성북구 석관동 4-2번지 두산아파트 상가 4층, 전화:02-968-7007, 팩스:02-967-2165 사업자등록번호 : 209-96-10734, 대표:황 재 옥, 이메일:jaeokkorea@hanmail.net   COPYRIGHT(C)2013 선명안한의안과학회 ALL RIGHT RESERVED." /></p>
+	</div>
+</div>
+
+<!-- 레이어팝업 -->
+<div id="layerPopup" style="display:block;">
+	<h3>우편번호 찾기</h4>
+	<a href="javascript:;" onClick="javascript:pop_close('layerPopup');return false" class="btn_close"><img src="common/images/etc/close_popup.gif" alt="팝업 닫기" /></a>
+	<form action="" class="addr">
+		<p class="tac">주소의 동(읍/명)을 입력하세요 (예 대치동, 역삼동)</p>
+		<div class="fbox">
+			<input type="text" class="inp_txt" name="addr" title="주소를 입력하세요" style="width:128px;" />
+			<a href=""><img src="common/images/etc/btn_find.gif" alt="찾기" /></a>
+		</div>
+		<p class="info">검색결과중 해당 주소를 클릭하시면 자동 입력됩니다.</p>
+		<table summary="우편번호, 주소를 보여주기 위한 표">
+			<caption>우편번호 찾기</caption>
+			<colgroup>
+				<col width="20%" />
+				<col width="*" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th>우편번호</th>
+					<th>주소</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>151-891</td>
+					<td class="left">서울 관악구 신림동 808- (152)</td>
+				</tr>
+				<tr>
+					<td>151-890</td>
+					<td class="left">서울 관악구 신림동 1409~1410</td>
+				</tr>
+				<tr>
+					<td>151-890</td>
+					<td class="left">서울 관악구 신림동 1409~1410</td>
+				</tr>
+				<tr>
+					<td>151-890</td>
+					<td class="left">서울 관악구 신림동 1409~1410</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</div>
+<!--// 레이어팝업 -->
+
+<script language="javascript">
+    function fnFamilySiteLink() {
+        if ($("#selFamilySite").val() != "") {
+            window.open($("#selFamilySite").val());
+        }
+    }
+</script>
+</body>
+</html>

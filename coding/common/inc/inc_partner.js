@@ -1,0 +1,26 @@
+var partner = '';
+
+partner +=	'	<div class="partner">'
+partner +=	'		<div class="btn prev"><a href="#">Previous</a></div>'
+partner +=	'		<div class="partner_list">'
+partner +=	'			<ul>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner01.gif" alt="대한한의사협회" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner02.gif" alt="한국한의학연구원" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner03.gif" alt="보건복지부" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner04.gif" alt="하나은행 제휴 Platinum 카드발급" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner05.gif" alt="과학기술학회마을" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner06.gif" alt="과학기술학회마을" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner07.gif" alt="akomnews 세상을 여는 한의신문" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner01.gif" alt="대한한의사협회" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner02.gif" alt="한국한의학연구원" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner03.gif" alt="보건복지부" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner04.gif" alt="하나은행 제휴 Platinum 카드발급" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner05.gif" alt="과학기술학회마을" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner06.gif" alt="과학기술학회마을" /></a></li>'
+partner +=	'				<li><a href="#"><img src="../common/images/comm/partner07.gif" alt="akomnews 세상을 여는 한의신문" /></a></li>'
+partner +=	'			</ul>'
+partner +=	'		</div>'
+partner +=	'		<div class="btn next"><a href="#">Next</a></div>'
+partner +=	'	</div>'
+
+document.write(partner);
