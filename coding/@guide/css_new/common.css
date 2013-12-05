@@ -27,10 +27,11 @@
 ul.lnb > li {position:relative;}
 ul.lnb > li > a {display:block; line-height:14px; padding:10px 12px 9px; border-bottom:1px solid #3d3d3d; font-size:12px;}
 ul.lnb > li.dropdown > a {background:url(../images/lnb_arrow.png) no-repeat 158px center;}
-ul.lnb > li.dropdown.open > a {color:#21b9f3; font-weight:bold; background:url(../images/lnb_arrow_a.png) no-repeat 158px center;}
+ul.lnb li.open > a {color:#21b9f3;}
+ul.lnb > li.dropdown.open > a {color:#21b9f3;background:url(../images/lnb_arrow_a.png) no-repeat 158px center;}
 ul.lnb > li > a:hover {background-color:#2b2b2b;}
 ul.lnb > li > ul {display:none; border-bottom:1px solid #3d3d3d; background-color:#2C2C2C}
-ul.lnb > li.dropdown.open > ul {display:block;}
+ul.lnb > li.open > ul {display:block;}
 ul.lnb > li > ul li {position:relative;}
 ul.lnb > li > ul li a {display:block; font-size:11px; padding:10px 0 9px 20px; border-bottom:1px dashed #3d3d3d}
 ul.lnb > li > ul li a.active {color:#21b9f3;}
