@@ -6,10 +6,10 @@
 #header ul {float:left;margin:37px 0 0 20px;}
 #header ul li {float:left; padding:0 12px; border-left:1px solid #ccc; font-family:"나눔고딕", NanumGothic, ng, sans-serif;}
 #header ul li:first-child {border-left:none;}
-#header ul li a {color:#b7b7b7; font-size:11px;}
+#header ul li a {font-size:11px;}
 #header ul li a.on {color:#FFF; font-weight:bold; text-decoration:underline;}
 
-#container {position:absolute;left:0;top:88px;right:0;bottom:40px;width:100%;height:auto;background-color:#232323;overflow:hidden;}
+#container {position:absolute;left:0;top:88px;right:0;bottom:40px;width:100%;height:auto;background-color:#fff;overflow:hidden;}
 /*#container:after{display:block;visibility:hidden;clear:both;height:0;content:''}*/
 #leftpanel {position:absolute;left:0;top:0;bottom:0;z-index:3;width:210px;height:100%;background:#232323;}
 #leftpanel .nav_snb {position:absolute;left:0;top:33px;right:0;bottom:0;overflow-x:hidden;overflow-y:auto;}
@@ -21,7 +21,7 @@
 #content h2 {padding:0 0 0 20px; margin-bottom:10px; background:url(../images/bullet_blue2.png) no-repeat left top; font-size:14px;}
 .mgc_a {width:180px; padding:0 0 60px; background:#d3d3d3}
 
-#footer {position:absolute;left:0;right:0;bottom:0;width:100%;height:40px;text-align:center;background-color:#474747;color:#b2b2b2;font:10px tahoma;line-height:40px;}
+#footer {position:absolute;left:0;right:0;bottom:0;width:100%;height:40px;text-align:center;background-color:#474747;color:#e1e1e1;font:10px tahoma;line-height:40px;}
 
 /* lnb */
 ul.lnb > li {position:relative;}
@@ -48,4 +48,7 @@ table.table1 {margin-bottom:30px; background:#fff; border-top:1px solid #007ab2;
 table.table1 thead th {color:#000; background:#e1f1f9; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px 10px; line-height:18px;}
 table.table1 tbody th {color:#000; background:#f7f3f3; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px 10px; line-height:18px;}
 table.table1 tbody td {color:#666; vertical-align:top; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px 10px; line-height:18px; letter-spacing:-1px;}
-table.table1 tbody td a {font-weight:bold; font-size:11px; letter-spacing:-1px; color:#0d9bb4; background:url(../images/ico_a5.gif) no-repeat left center; padding:4px 0 4px 25px;}
+table.table1 tbody td a {font-weight:bold; font-size:11px; letter-spacing:-1px; color:#0d9bb4;padding:4px 0 4px 0}
+
+/* page list */
+#container .pagelist {}
