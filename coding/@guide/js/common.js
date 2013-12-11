@@ -14,10 +14,11 @@ $(document).ready(function() {
             e.preventDefault();
     		lst.siblings('li').removeClass('open');
     		lst.toggleClass('open');
-    	} else {
-    		lst.siblings('li').removeClass('open');
-    		lst.addClass('open');
-    	}
+    	} 
+     //    else {
+    	// 	lst.siblings('li').removeClass('open');
+    	// 	// lst.addClass('open');
+    	// }
     	
     });
 });
