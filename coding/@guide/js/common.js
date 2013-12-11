@@ -7,12 +7,12 @@ $(document).ready(function() {
     //    });
 
     $('.lnb > li > a').on('click',function (e){
-    	var depth1 = $('.lnb > li > a')
+    	var depth1 = $(this)
     	var lst = $(this).parent('li');
 
-    	if (lst.hasClass('dropdown')) {
+        if (lst.hasClass('dropdown')) {
             e.preventDefault();
-    		lst.siblings('li').removeClass('open');
+            //lst.siblings('li').removeClass('open');
     		lst.toggleClass('open');
     	} 
      //    else {
