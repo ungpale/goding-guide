@@ -10,14 +10,13 @@
 #header ul li a.on {color:#FFF; font-weight:bold; text-decoration:underline;}
 
 #container {position:absolute;left:0;top:88px;right:0;bottom:40px;width:100%;height:auto;background-color:#fff;overflow:hidden;}
-/*#container:after{display:block;visibility:hidden;clear:both;height:0;content:''}*/
 #leftpanel {position:absolute;left:0;top:0;bottom:0;z-index:3;width:210px;height:100%;background:#232323;}
 #leftpanel .nav_snb {position:absolute;left:0;top:0;right:0;bottom:0;overflow-x:hidden;overflow-y:auto;}
 
 #rightpanel {position:absolute;left:210px;right:0;top:0;bottom:0;width:auto;height:100%;background-color:#e1e1e1}
 #content_wrap {overflow:auto;position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:auto;}
-#content {padding:20px;min-width:980px;}
-#content h2 {padding:0 0 20px;margin-bottom:20px;color:#000;font-size:16px;font-weight:800;border-bottom:1px dashed #222;}
+#content {padding:20px;min-width:980px;line-height:18px;}
+#content h2 {padding:0 0 20px;margin-bottom:20px;color:#000;font-size:16px;font-weight:700;border-bottom:1px dashed #222;}
 #content h3 {margin-bottom:10px;color:#000;font-size:14px;font-weight:700;}
 .mgc_a {width:180px; padding:0 0 60px; background:#d3d3d3}
 
@@ -44,6 +43,9 @@ ul.lnb > li > ul li.last a {border:none;}
 /* rightpanel */
 /*#rightpanel h2 {padding:0 0 10px 0; font-size:14px; border-bottom:1px dashed #b2b2b2}*/
 
+/*content*/
+.lst_box_type1 {padding:10px;background-color:#FFF;border:1px solid #ccc;}
+
 /* table */
 table.table1 {margin-bottom:30px; background:#fff; border-top:2px solid #007ab2; border-left:1px solid #ccc; }
 table.table1 th {padding:5px 10px;color:#000;border-right:1px solid #ccc;border-bottom:1px solid #ccc;line-height:18px;}
@@ -51,6 +53,9 @@ table.table1 thead th {background-color:#f9f9f9;}
 table.table1 tbody th {background:#f7f3f3;}
 table.table1 tbody td {padding:5px 10px;color:#666;vertical-align:top;border-right:1px solid #ccc;border-bottom:1px solid #ccc;line-height:18px;}
 table.table1 tbody td a {font-weight:800;color:#0d9bb4;padding:4px 0 4px 0}
+
+ul.lst_a1 {}
+ul.lst_a1 li {padding:0 0 0 8px;background:url(../images/dot_a1.gif) no-repeat left center;line-height:18px;}
 
 /* page list */
 #container .pagelist {background-color:#e1e1e1;}
