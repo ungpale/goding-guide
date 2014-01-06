@@ -9,18 +9,18 @@
 #header ul li a {font-size:11px;}
 #header ul li a.on {color:#FFF; font-weight:bold; text-decoration:underline;}
 
-#container {position:absolute;left:0;top:88px;right:0;bottom:40px;width:100%;height:auto;background-color:#fff;overflow:hidden;}
+#container {position:absolute;left:0;top:88px;right:0;bottom:30px;width:100%;height:auto;background-color:#fff;overflow:hidden;}
 #leftpanel {position:absolute;left:0;top:0;bottom:0;z-index:3;width:210px;height:100%;background:#232323;}
 #leftpanel .nav_snb {position:absolute;left:0;top:0;right:0;bottom:0;overflow-x:hidden;overflow-y:auto;}
 
-#rightpanel {position:absolute;left:210px;right:0;top:0;bottom:0;width:auto;height:100%;background-color:#e1e1e1}
+#rightpanel {position:absolute;left:210px;right:0;top:0;bottom:0;width:auto;height:100%;background-color:#f8f8f8}
 #content_wrap {overflow:auto;position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:auto;}
 #content {padding:20px;min-width:980px;line-height:18px;}
 #content h2 {padding:0 0 20px;margin-bottom:20px;color:#000;font-size:16px;font-weight:700;border-bottom:1px dashed #222;}
 #content h3 {margin-bottom:10px;color:#000;font-size:14px;font-weight:700;}
 .mgc_a {width:180px; padding:0 0 60px; background:#d3d3d3}
 
-#footer {position:absolute;left:0;right:0;bottom:0;width:100%;height:40px;text-align:center;background-color:#474747;color:#e1e1e1;font:10px tahoma;line-height:40px;}
+#footer {position:absolute;left:0;right:0;bottom:0;width:100%;height:30px;text-align:center;background-color:#474747;color:#e1e1e1;font:10px tahoma;line-height:30px;}
 
 /* lnb */
 ul.lnb > li {position:relative;}
